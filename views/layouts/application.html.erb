@@ -4,5 +4,11 @@
   <body>
     <h2>My Super Simple Ruby Server</h2>
     <%= yield %>
+    <p>
+      <hr />
+      The time is now: <%= Time.now.strftime('%I:%M:%S %P | %B %d, %Y') %>
+    </p>
+
+
   </body>
 </html>
